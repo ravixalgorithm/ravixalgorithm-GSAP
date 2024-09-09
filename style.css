@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "comfortaa";
+    color: #fff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #090909;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+
+#name{
+    font-family: 'monument';
+    font-weight: 400;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+}
+
+#nav-part2 a:hover{
+    scale: 1.05;
+    transition: all ease-in-out;
+    -webkit-transition: all ease-in-out;
+    -moz-transition: all ease-in-out;
+    -ms-transition: all ease-in-out;
+    -o-transition: all ease-in-out;
+}
+
+#content{
+    width: 80%;
+    margin-left: 10%;
+    height: 80%;
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content h1{
+    font-size: 110px;
+    position: relative;
+    z-index: 9;
+}
+
+#content h1:nth-child(1){
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+#content h1:nth-child(2){
+    text-align: center;
+    letter-spacing: -5px;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+#img1{
+    rotate: 8deg;
+}
+
+#img2{
+    rotate: 15deg;
+}
+
+#footer{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    text-transform: uppercase;
+}

@@ -15,12 +15,6 @@ tl.from("#content h1",{
     stagger: 0.3
 })
 
-tl.from("#footer",{
-    opacity: 0,
-    y: 50,
-    duration: 0.4,
-})    
-
 tl.from("img",{
     x: 100,
     rotate: 45,
@@ -28,3 +22,9 @@ tl.from("img",{
     duration: 0.5,
     stagger: 0.3
 })
+
+tl.from("#footer",{
+    opacity: 0,
+    duration: 0.3,
+})    
+
